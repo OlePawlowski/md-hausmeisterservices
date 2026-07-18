@@ -1362,3 +1362,8 @@ textarea.form-control { resize:vertical; min-height:130px; }
   .cookie-actions { justify-content:stretch; }
   .cookie-actions .btn { flex:1; justify-content:center; }
 }
+
+/* ════════════════════════════════════════════════
+   TESTIMONIALS — Google Reviews Widget
+   ════════════════════════════════════════════════ */
+.x-reviews-widget { margin-top:2.5rem; }
