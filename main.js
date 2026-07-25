@@ -4,7 +4,34 @@
    back-to-top, accordion, mobile nav
    ================================================ */
 
+// ── SERVICEZEITEN (zentrale Quelle, laut Google-Profil) ──
+// Mo–Do 08:00–17:00 Uhr, Fr 08:00–15:00 Uhr, Sa/So geschlossen
+const BUSINESS_HOURS = {
+  rows: [
+    { days: 'Mo. – Do.', hours: '08:00 – 17:00 Uhr' },
+    { days: 'Fr.',        hours: '08:00 – 15:00 Uhr' },
+    { days: 'Sa. – So.',  hours: 'Geschlossen' },
+  ],
+  short:  'Mo–Do 08–17 · Fr 08–15 Uhr',
+  inline: 'Mo – Do: 08:00 – 17:00 Uhr · Fr: 08:00 – 15:00 Uhr',
+};
+
+function renderBusinessHours() {
+  document.querySelectorAll('[data-hours="short"]').forEach(el => {
+    el.textContent = BUSINESS_HOURS.short;
+  });
+  document.querySelectorAll('[data-hours="inline"]').forEach(el => {
+    el.textContent = BUSINESS_HOURS.inline;
+  });
+  document.querySelectorAll('[data-hours-table]').forEach(table => {
+    table.innerHTML = BUSINESS_HOURS.rows.map(r =>
+      `<tr><td>${r.days}</td><td${r.hours === 'Geschlossen' ? ' class="closed"' : ''}>${r.hours}</td></tr>`
+    ).join('');
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+  renderBusinessHours();
 
   // ── SCROLL PROGRESS BAR ────────────────────────
   const progressBar = document.getElementById('progress-bar');
