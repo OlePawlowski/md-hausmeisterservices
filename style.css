@@ -1,3 +1,22 @@
+/* ================================================
+   SCHRIFTEN — lokal gehostet (keine Google-Fonts-Verbindung)
+   Plus Jakarta Sans + Inter · Subsets latin & latin-ext
+   ================================================ */
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/inter-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/inter-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/inter-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/inter-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/inter-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/inter-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/plus-jakarta-sans-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/plus-jakarta-sans-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/plus-jakarta-sans-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/plus-jakarta-sans-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/plus-jakarta-sans-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/plus-jakarta-sans-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:800;font-display:swap;src:url('fonts/plus-jakarta-sans-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:800;font-display:swap;src:url('fonts/plus-jakarta-sans-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+
 @charset "UTF-8";
 /* ================================================
    MD HAUSMEISTERSERVICE — Global Stylesheet v2
@@ -235,7 +254,7 @@ p  { line-height:1.75; color:var(--text-muted); }
 .mobile-cta {
   display:none;
   position:fixed; bottom:0; left:0; right:0;
-  background:var(--amber); color:var(--navy);
+  background:var(--amber); color:#fff;
   font-family:var(--font-d); font-weight:700; font-size:.95rem;
   padding:1rem; text-align:center;
   z-index:900; box-shadow:0 -4px 16px rgba(13,27,42,.15);
@@ -538,7 +557,7 @@ p  { line-height:1.75; color:var(--text-muted); }
   margin:0 auto 1.25rem;
   box-shadow:0 0 0 6px var(--amber-50);
 }
-.step-item h4 { font-size:.95rem; margin-bottom:.35rem; }
+.step-item h3 { font-size:.95rem; margin-bottom:.35rem; }
 .step-item p  { font-size:.83rem; }
 
 /* ================================================
@@ -604,7 +623,7 @@ p  { line-height:1.75; color:var(--text-muted); }
 .img-card-photo { height:150px; overflow:hidden; }
 .img-card-photo img { width:100%; height:100%; object-fit:cover; }
 .img-card-body { padding:1.5rem; text-align:center; }
-.img-card-body h4 { margin-bottom:.4rem; font-size:.97rem; }
+.img-card-body h3 { margin-bottom:.4rem; font-size:.97rem; }
 .img-card-body p { font-size:.84rem; }
 
 .t-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px,1fr)); gap:1.5rem; }
@@ -722,7 +741,7 @@ p  { line-height:1.75; color:var(--text-muted); }
   display:flex; align-items:center; justify-content:center;
   font-size:1.5rem; margin:0 auto 1rem;
 }
-.usp-card h4 { margin-bottom:.4rem; font-size:.97rem; }
+.usp-card h3 { margin-bottom:.4rem; font-size:.97rem; }
 .usp-card p  { font-size:.84rem; }
 
 /* ================================================
@@ -806,7 +825,7 @@ textarea.form-control { resize:vertical; min-height:130px; }
 }
 .footer-brand img { height:36px; width:auto; margin-bottom:1rem; }
 .footer-brand p   { color:rgba(255,255,255,.52); font-size:.855rem; line-height:1.75; margin-bottom:1.25rem; }
-.footer-col h4 { color:#fff; font-size:.9rem; margin-bottom:1.25rem; }
+.footer-col h3 { color:#fff; font-size:.9rem; margin-bottom:1.25rem; }
 .footer-links { display:flex; flex-direction:column; gap:.6rem; }
 .footer-links a { color:rgba(255,255,255,.55); font-size:.855rem; display:flex; align-items:center; gap:.35rem; transition:color var(--tr); }
 .footer-links a::before { content:'›'; color:var(--amber); }
@@ -816,9 +835,9 @@ textarea.form-control { resize:vertical; min-height:130px; }
 .fci a { color:rgba(255,255,255,.65); } .fci a:hover { color:#fff; }
 .fci span { color:rgba(255,255,255,.65); }
 .footer-bottom { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:1.2rem 0; flex-wrap:wrap; }
-.footer-bottom p { font-size:.78rem; color:rgba(255,255,255,.38); }
+.footer-bottom p { font-size:.78rem; color:rgba(255,255,255,.62); }
 .footer-legal { display:flex; gap:1.5rem; flex-wrap:wrap; }
-.footer-legal a { font-size:.78rem; color:rgba(255,255,255,.38); } .footer-legal a:hover { color:rgba(255,255,255,.75); }
+.footer-legal a { font-size:.78rem; color:rgba(255,255,255,.62); } .footer-legal a:hover { color:rgba(255,255,255,.75); }
 
 /* ================================================
    LEGAL
@@ -1225,7 +1244,7 @@ textarea.form-control { resize:vertical; min-height:130px; }
   transition:transform var(--tr);
 }
 .x-step:hover .badge { transform:translateY(-3px) rotate(-6deg); }
-.x-step h4 { font-size:1rem; margin-bottom:.35rem; }
+.x-step h3 { font-size:1rem; margin-bottom:.35rem; }
 .x-step p { font-size:.86rem; }
 
 /* ════════════════════════════════════════════════
